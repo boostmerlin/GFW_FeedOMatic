@@ -158,7 +158,7 @@
 						</FontString>
 						<FontString name="FOM_KeepOpenText3" justifyH="LEFT" inherits="GameFontDisableSmall" text="FOM_KEEPOPEN_INFO">
 							<Size>
-								<AbsDimension x="30" y="10"/>
+								<AbsDimension x="340" y="30"/>
 							</Size>
 							<Anchors>
 								<Anchor point="TOPLEFT" relativeTo="FOM_KeepOpenText1" relativePoint="BOTTOMLEFT"> 

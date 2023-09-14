@@ -383,7 +383,7 @@ if (GetLocale() == "zhCN") then
 
 	FOM_KEEPOPEN = "尽量保持背包至少";
 	FOM_KEEPOPEN_SLOTS = "空位.";
-	FOM_KEEPOPEN_INFO = "当背包空位不足时,尽量选择堆叠数量少的食物";
+	FOM_KEEPOPEN_INFO = "背包空位不足时,尽量选择堆叠数少的食物";
 
 	FOM_OptionsButtonText = {
 		["Tooltip"]	= "在工具提示中显示宠物对食物的看法",
