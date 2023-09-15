@@ -612,12 +612,12 @@ function FOM_ChatCommandHandler(msg)
 			end
 			FOM_LocaleInfo[UnitCreatureFamily("pet")] = {GetPetFoodTypes()};
 
-			for buffIndex=0, 15 do
-				local buff = GetPlayerBuffTexture(buffIndex);
-				if buff then
-					FOM_LocaleInfo[buff] = buffIndex;
-				end
-			end
+			-- for buffIndex=0, 15 do
+			-- 	local buff = GetPlayerBuffTexture(buffIndex);
+			-- 	if buff then
+			-- 		FOM_LocaleInfo[buff] = buffIndex;
+			-- 	end
+			-- end
 			local name, link, rarity, minLevel, type, subType, stackCount, equipLoc = GetItemInfo(2888);
 			FOM_LocaleInfo["bonus"] = {name, link, rarity, minLevel, type, subType, stackCount, equipLoc};
 		end
